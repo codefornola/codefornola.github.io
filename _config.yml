@@ -1,17 +1,31 @@
-# Welcome to Jekyll!
-#
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Code For New Orleans Static Site
-email: 
-description: > # this means to ignore newlines until "baseurl:"
-  Code for new orleans is.....
+title: Code For New Orleans
+email: info@codeforneworleans.org
+description: Code for New Orleans is a Code for America Brigade
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://codeforneworleans.org" # the base hostname & protocol for your site
 
+permalink: /:title/
+
+# Google Analytics web tracking code
+google_analytics: UA-81667146-1
+
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+  sass_dir: _sass
+
 # Build settings
 markdown: kramdown
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME

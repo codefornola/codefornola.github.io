@@ -1,0 +1,89 @@
+---
+---
+
+@import "variables";
+
+html {
+  font-size: 100%;
+}
+
+body {
+	background: $white;
+  color: $darkGray;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 6%;
+  flex: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $helveticaNeue;
+  color: $darkerGray;
+  font-weight: bold;
+}
+
+a {
+  color: $blue;
+  text-decoration: none;
+	cursor: pointer;
+  &:hover, &:active {
+    color: $blue;
+  }
+}
+
+.logo {
+  float: left;
+
+  img {
+    height: 155px;
+  }
+}
+
+nav {
+  font-family: $helveticaNeue;
+  font-size: 22px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 61px;
+
+  a {
+    margin-left: 20px;
+    color: $black;
+    text-align: right;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+}
+
+.hero {
+  background-image: url("../img/old_wordpress/pattern-1.png");
+  margin: 0;
+
+  img {
+    max-height: 420px;
+    width: auto;
+    z-index: -1;
+  }
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 30px 0;
+  background: $lightGray;
+
+  a {
+    padding-left: 100px;
+    color: $cfnoBlue;
+  }
+}

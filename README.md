@@ -3,7 +3,8 @@
 This repo is a [Jekyll](https://jekyllrb.com/) project for the Code for New Orleans
 static site to be hosted at [http://codeforneworleans.org/](http://codeforneworleans.org/).
 It's just a single page right now and it copies over the site made by Ken
-done in Wordpress. We haven't added a blog or chosen any themes.
+done in Wordpress. We haven't chosen any themes so feel free to
+contribute!
 
 Everything from the wordpress site is prefixed with `old_wordpress` and the layout is called `old_wordpress.html` to allow
 easy transitioning into something custom.
