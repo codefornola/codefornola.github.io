@@ -1,0 +1,177 @@
+:root {
+  --mono: 'Inconsolata', monospace;
+  --sans: 'Open Sans', sans-serif;
+  --brand-gold: #EEB500;
+  --brand-red: #D72A00;
+  --brand-blue: #11194E;
+  --brand-grey-accent: #E8E5E1;
+  --brand-sky-highlight: #D1FCFF;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,207cca+10,e5e5e5+31 */
+  --brand-gradient-accent: linear-gradient(to bottom,  var(--brand-sky-highlight) 0%,var(--brand-grey-accent) 25%,white 45%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  --brand-gradient-accent-moz: -moz-linear-gradient(top,  var(--brand-sky-highlight) 0%, var(--brand-grey-accent) 25%, white 45%); /* FF3.6-15 */
+  --brand-gradient-accent-webkit: -webkit-linear-gradient(top,  var(--brand-sky-highlight) 0%,var(--brand-grey-accent) 25%,white 45%); /* Chrome10-25,Safari5.1-6 */
+  --brand-gradient-accent-ms: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--brand-grey-accent)', endColorstr='white',GradientType=0 ); /* IE6-9 */
+}
+.brand-bg-gold {
+  background-color: var(--brand-gold);
+}
+.brand-bg-red {
+  background-color: var(--brand-red);
+}
+.brand-bg-blue {
+  background-color: var(--brand-blue);
+}
+.brand-bg-accent {
+  background-color: var(--brand-grey-accent);
+}
+.brand-bg-highlight {
+  background-color: var(--brand-sky-highlight);
+}
+.brand-gold {
+  color: var(--brand-gold);
+}
+.brand-red {
+  color: var(--brand-red);
+}
+.brand-blue {
+  color: var(--brand-blue);
+}
+.brand-accent {
+  color: var(--brand-grey-accent);
+}
+.brand-highlight {
+  color: var(--brand-sky-highlight);
+}
+body {
+  background: white; /* Old browsers */
+  background: var(--brand-gradient-accent-moz);
+  background: var(--brand-gradient-accent-webkit);
+  background: var(--brand-gradient-accent);
+  filter: var(--brand-gradient-accent-ms);
+  font-family: var(--sans);
+  font-size: 20px;
+  margin: 0;
+}
+header {
+  background-color: white;
+  top: 0;
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  box-shadow: 0 5px 5px grey;
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+  align-items: center;
+
+}
+.logo {
+  background-image: url('/img/cfno-logo.png');
+  background-size: cover;
+  min-width: 200px;
+  min-height: 85px;
+  width: 200px;
+  height: 85px;
+  margin: 1em;
+  margin-right: 3em;
+}
+.wordmark {
+  font-family: var(--mono);
+  color: var(--brand-blue);
+  font-size: 32px;
+}
+h1 {
+  font-family: var(--mono);
+  color: var(--brand-red);
+  font-weight: bold;
+  font-size: 54px;
+}
+h2 {
+  font-family: var(--mono);
+  font-size: 40px;
+  color: var(--brand-blue);
+  width: 100%;
+  border-bottom: 1px solid var(--brand-gold);
+}
+h3 {
+  font-family: var(--mono);
+  font-size: 36px;
+  color: var(--brand-blue);
+}
+h4 {
+  font-family: var(--mono);
+  font-size: 32px;
+  color: var(--brand-blue);
+}
+h5 {
+  font-family: var(--mono);
+  font-size: 28px;
+  color: var(--brand-blue);
+  text-decoration: underline;
+}
+h6 {
+  font-family: var(--mono);
+  font-size: 24px;
+  color: var(--brand-blue);
+  text-decoration: underline;
+}
+.content {
+  background-color: white;
+  z-index: 0;
+  max-width: 900px;
+  min-height: calc(100vh - 10px);
+  margin: 0 auto;
+  padding: 135px 30px 5px 30px;
+}
+.examples {
+  width: 100%;
+  min-width: 100%;
+}
+.display-example {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid var(--brand-gold);
+  padding: 10px 0;
+  width: 100%;
+}
+.display-example:first-of-type {
+  border-top: none;
+}
+.display-example img {
+  width: 80%;
+  height: auto;
+  padding: 1em;
+  padding-left: 0;
+}
+.display-example-narrow: {
+  min-width: 35%;
+  max-width: 35%;
+  padding: 1em;
+  padding-left: 0;
+}
+.display-example-wide {
+  min-width: 60%;
+  max-width: 60%;
+}
+.display-example-color {
+}
+.color-block {
+  width: 170px;
+  height: 170px;
+  border: 5px solid white;
+}
+.color-text {
+  font-family: var(--sans);
+  font-weight: bold;
+  text-align: center;
+}
+.highlight {
+  background-color: var(--brand-sky-highlight);
+  color: var(--brand-blue);
+  font-family: var(--sans);
+  font-size: 28px;
+  padding: 20px 20px;
+}
