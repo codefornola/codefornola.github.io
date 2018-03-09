@@ -21,9 +21,11 @@ This project has the following goals:
 
 ## Who?
 
-* **Project Champion:** Ryan Harvey (temporarily -- ask if you're interested!)
+* **Project Champion:** <a href='mailto:ryan@codeforneworleans.org'>Ryan Harvey</a> (temporarily -- ask if you're interested!)
 * **Data Lead:** Ryan Harvey
 * **Code Lead:** Marc Cenac
+
+## How?
 
 We're looking for the following types of help:
 
@@ -31,4 +33,13 @@ We're looking for the following types of help:
 * Data analysis
 * City administration subject matter expertise
 * Front-end web development
-* 
+
+If you'd like to help, contact the Project Champion today!
+
+## Where?
+
+City 311 data is located on [data.nola.gov](https://data.nola.gov/City-Administration/311-Calls-2012-Present-/3iz8-nghx).
+
+The city's 311 Explorer app (which we hope this will be more useful than) is at [311explorer.nola.gov](http://311explorer.nola.gov/main/category/).
+
+The code for this project is on Github in the [codefornola/311 repo](https://github.com/codefornola/311).
