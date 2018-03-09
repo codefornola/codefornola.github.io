@@ -11,28 +11,51 @@ We meet monthly on the second Thursday of the month at 7:00 PM for Project Night
 
 In addition, we host bigger events for days of action:
 
-* 
-
-
+* National Day of Civic Hacking
+* CodeAcross
+* CityCamp
+* International Open Data Day
 
 ## Leadership
 
 <div class="person">
-  ![Photo of Marc Cenac][marc]
-  <p class="person-name">Marc Cenac</p>
-  <p class="person-title">Co-organizer and Code Wrangler</p>
+  <div class="person-photo">
+    <img src="https://baconmockup.com/200/300/" alt="Photo of Marc Cenac" title="Photo of Marc Cenac"/>
+  </div>
+  <div class="person-details">
+    <p class="person-name">Marc Cenac</p>
+    <p class="person-title">Co-Captain and Community Organizer</p>
+    <p>Marc Cenac started Code for New Orleans in 2016 in an effort to be more involved in creating the life he wanted in New Orleans. Since then, he's taken part in numerous projects to improve the city.</p>
+    <p>Marc grew up here in New Orleans, attended college at Loyola University in uptown, and works remotely from New Orleans as a software engineer for Boundless Geospatial. Marc is currently participating in the Civic Innovation Fellows program run by the City of New Orleans.</p>
+  </div>
 </div>
 <div class="person">
-  ![Photo of Ryan Harvey][ryan]
-  <p class="person-name">Ryan Harvey</p>
-  <p class="person-title">Co-organizer and Data Wrangler</p>
-</div>
-<div class="person">
-  ![Photo of Ben Eckels][ben]
-  <p class="person-name">Ben Eckels</p>
-  <p class="person-title">Project Maven</p>
-</div>
+  <div class="person-photo">
+    <img src="https://baconmockup.com/200/300/" alt="Photo of Ryan Harvey" title="Photo of Ryan Harvey"/>
+  </div>
+  <div class="person-details">
+    <p class="person-name">Ryan Harvey</p>
+    <p class="person-title">Co-Captain and Data Wrangler</p>
+    <p>Ryan Harvey got involved in the civic tech and open government movements from their start, helping to start the Open Government and Open Data programs at Social Security Administration between 2009 and 2012, and helping to coordinate Data.gov submissions for the White House Office of Management and Budget while working in Budget Systems from 2012 through 2016. While living in the DC area, Ryan was an active participant in the civic tech community, including the Data Community DC and Code for DC.</p>
 
-[marc]: https://baconmockup.com/200/300/ "Photo of Marc Cenac"
-[ryan]: https://baconmockup.com/200/300/ "Photo of Ryan Harvey"
-[ben]: https://baconmockup.com/200/300/ "Photo of Ben Eckels"
+    <p>Ryan grew up in the New Orleans area, graduated from Loyola University in uptown, and works remotely as a data engineer for TED Conferences. He also serves as an adjunct lecturer in computer science at Loyola. Ryan lives in a multi-generational home in Mandeville, and has two amazing kids.</p>
+  </div>
+</div>
+<div class="person">
+  <div class="person-photo">
+    <img src="https://baconmockup.com/200/300/" alt="Photo  of Ken Faucheaux" title="Photo of Ken Faucheaux"/>
+  </div>
+  <div class="person-details">
+    <p class="person-name">Ken Faucheaux</p>
+    <p class="person-title">Storyteller</p>
+  </div>
+</div>
+<div class="person">
+  <div class="person-photo">
+    <img src="https://baconmockup.com/200/300/" alt="Photo of Ben Eckels" title="Photo of Ben Eckels"/>
+  </div>
+  <div class="person-details">
+    <p class="person-name">Ben Eckels</p>
+    <p class="person-title">Delivery Lead</p>
+  </div>
+</div>

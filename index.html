@@ -2,6 +2,16 @@
 layout: code_for_new_orleans
 ---
 
+<nav>
+  <ul>
+    {% for page_item in site.pages %}
+      {% if page_item.title %}
+        <li><a href={{ page_item.url }}>{{ page_item.title }}</li></a>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>
+
 <h1>Hello!</h1>
 
 <p>
