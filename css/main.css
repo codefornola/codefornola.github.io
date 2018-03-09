@@ -213,6 +213,16 @@ nav > ul > li > a:active {
   font-size: 28px;
   padding: 20px 20px;
 }
+.project-announcement {
+  background-color: var(--brand-sky-highlight);
+  color: var(--brand-blue);
+  font-family: var(--mono);
+  font-size: 24px;
+  padding: 20px 20px;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
 .person {
   display: flex;
 

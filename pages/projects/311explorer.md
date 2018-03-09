@@ -3,6 +3,7 @@
   title: 311 Explorer
   category: project
   project:
+    announce: Want to take the lead on this project? <a href='mailto:ryan@codeforneworleans.org'>Contact the Project Champion!</a>
     champion:
       name: Ryan Harvey
       email: ryan@codeforneworleans.org

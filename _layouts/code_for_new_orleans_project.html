@@ -1,6 +1,10 @@
 ---
   layout: code_for_new_orleans
 ---
+{% if page.project.announce %}
+<div class="project-announcement">{{ page.project.announce | markdownify }}</div>
+{% endif %}
+
 <h2 id="why">Why?</h2>
 
 {{ page.project.why | markdownify }}
@@ -40,3 +44,4 @@
 
 {{ page.project.where | markdownify }}
 
+{{ content }}
