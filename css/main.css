@@ -64,7 +64,7 @@ header {
   flex-direction: row;
   flex-flow: nowrap;
   align-items: center;
-
+  align-content: space-between;
 }
 .logo {
   background-image: url('/img/cfno-logo.png');
@@ -125,14 +125,22 @@ h6 {
   padding: 135px 30px 5px 30px;
 }
 
+nav {
+  flex-direction: row;
+  align-self: flex-end;
+}
 nav > ul {
-  display: block;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
 }
 nav > ul > li {
   display: inline-block;
   padding: 5px;
+  margin: 10px;
   background-color: var(--brand-sky-highlight);
   list-style-type: none;
+  border-radius: 5px;
 }
 nav > ul > li > a {
   color: var(--brand-blue);
