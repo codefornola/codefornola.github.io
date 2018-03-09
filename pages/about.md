@@ -26,7 +26,7 @@ In addition, we host bigger events for days of action:
     <p class="person-name">Marc Cenac</p>
     <p class="person-title">Co-Captain and Community Organizer</p>
     <p>Marc Cenac started Code for New Orleans in 2016 in an effort to be more involved in creating the life he wanted in New Orleans. Since then, he's taken part in numerous projects to improve the city.</p>
-    <p>Marc grew up here in New Orleans, attended college at Loyola University in uptown, and works remotely from New Orleans as a software engineer for Boundless Geospatial. Marc is currently participating in the Civic Innovation Fellows program run by the City of New Orleans.</p>
+    <p>Marc grew up here in New Orleans, attended college at Loyola University in uptown, and works remotely from New Orleans as a software engineer for Boundless Spatial. Marc participated in the Civic Leadership Academy program run by the City of New Orleans in 2017.</p>
   </div>
 </div>
 <div class="person">
@@ -43,10 +43,10 @@ In addition, we host bigger events for days of action:
 </div>
 <div class="person">
   <div class="person-photo">
-    <img src="https://baconmockup.com/200/300/" alt="Photo  of Ken Faucheaux" title="Photo of Ken Faucheaux"/>
+    <img src="https://baconmockup.com/200/300/" alt="Photo  of Henry Alpert" title="Photo of Henry Alpert"/>
   </div>
   <div class="person-details">
-    <p class="person-name">Ken Faucheaux</p>
+    <p class="person-name">Henry Alpert</p>
     <p class="person-title">Storyteller</p>
   </div>
 </div>
@@ -55,7 +55,7 @@ In addition, we host bigger events for days of action:
     <img src="https://baconmockup.com/200/300/" alt="Photo of Ben Eckels" title="Photo of Ben Eckels"/>
   </div>
   <div class="person-details">
-    <p class="person-name">Ben Eckels</p>
+    <p class="person-name">Ben Eckel</p>
     <p class="person-title">Delivery Lead</p>
   </div>
 </div>
