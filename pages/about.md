@@ -52,7 +52,7 @@ In addition, we host bigger events for days of action:
 </div>
 <div class="person">
   <div class="person-photo">
-    <img src="https://baconmockup.com/200/300/" alt="Photo of Ben Eckels" title="Photo of Ben Eckels"/>
+    <img src="https://baconmockup.com/200/300/" alt="Photo of Ben Eckel" title="Photo of Ben Eckel"/>
   </div>
   <div class="person-details">
     <p class="person-name">Ben Eckel</p>
