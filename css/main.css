@@ -124,11 +124,31 @@ h6 {
   margin: 0 auto;
   padding: 135px 30px 5px 30px;
 }
-.examples {
+
+nav > ul {
+  display: block;
+}
+nav > ul > li {
+  display: inline-block;
+  padding: 5px;
+  background-color: var(--brand-sky-highlight);
+  list-style-type: none;
+}
+nav > ul > li > a {
+  color: var(--brand-blue);
+  font-family: var(--mono);
+  text-decoration: none;
+}
+nav > ul > li > a:hover,
+nav > ul > li > a:active {
+  color: var(--brand-red);
+}
+
+.examples, .people {
   width: 100%;
   min-width: 100%;
 }
-.display-example {
+.display-example, .person {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -137,24 +157,42 @@ h6 {
   padding: 10px 0;
   width: 100%;
 }
-.display-example:first-of-type {
+.display-example:first-of-type,
+.person:first-of-type {
   border-top: none;
 }
-.display-example img {
+.display-example img,
+.person img {
   width: 80%;
   height: auto;
   padding: 1em;
   padding-left: 0;
 }
-.display-example-narrow: {
+.display-example-narrow,
+.person-photo {
   min-width: 35%;
   max-width: 35%;
   padding: 1em;
   padding-left: 0;
 }
-.display-example-wide {
+.person-photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.display-example-wide,
+.person-details {
   min-width: 60%;
   max-width: 60%;
+}
+.person-name {
+  font-weight: bold;
+  color: var(--brand-blue);
+  font-size: 28px;
+}
+.person-title {
+  font-style: italic;
+  color: var(--brand-blue);
 }
 .display-example-color {
 }
@@ -174,4 +212,8 @@ h6 {
   font-family: var(--sans);
   font-size: 28px;
   padding: 20px 20px;
+}
+.person {
+  display: flex;
+
 }
