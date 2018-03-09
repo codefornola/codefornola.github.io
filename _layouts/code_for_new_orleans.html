@@ -8,10 +8,7 @@
     <link href="/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <div class="logo"></div>
-      <h1>{{ page.title | default: site.title }}</h1>
-    </header>
+    {% include header.html %}
     <div class='content'>
       {{ content }}
     </div>
