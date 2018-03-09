@@ -1,0 +1,42 @@
+---
+  layout: code_for_new_orleans
+---
+<h2 id="why">Why?</h2>
+
+{{ page.project.why | markdownify }}
+
+<h2 id="what">What?</h2>
+
+<p>This project has the following goals:</p>
+
+<ul>
+  {% for goal in page.project.goals %}
+    <li>{{ goal }}</li>
+  {% endfor %}
+</ul>
+
+<h2 id="who">Who?</h2>
+
+<ul>
+  <li><strong>Project Champion:</strong> <a href='mailto:{{ page.project.champion.email }}'>{{ page.project.champion.name }}</a></li>
+  {% for person in page.project.people %}
+    <li><strong>{{ person.title }}:</strong> {{ person.name }}</li>
+  {% endfor %}
+</ul>
+  
+<h2 id="how">How?</h2>
+
+<p>We’re looking for the following types of help:</p>
+
+<ul>
+    {% for skill in page.project.skills_needed %}
+      <li>{{ skill }}</li>
+    {% endfor %}
+</ul>
+
+<p>If you’d like to help, <a href='mailto:{{ page.project.champion.email }}'>contact the Project Champion today!</a></p>
+
+<h2 id="where">Where?</h2>
+
+{{ page.project.where | markdownify }}
+
