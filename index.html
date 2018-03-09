@@ -5,8 +5,8 @@ layout: code_for_new_orleans
 <nav>
   <ul>
     {% for page_item in site.pages %}
-      {% if page_item.title %}
-        <li><a href={{ page_item.url }}>{{ page_item.title }}</li></a>
+      {% if page_item.category == 'main_nav' %}
+        <li><a href='{{ page_item.url }}'>{{ page_item.menu_tag || page_item.title }}</li></a>
       {% endif %}
     {% endfor %}
   </ul>

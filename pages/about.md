@@ -1,6 +1,8 @@
 ---
   layout: code_for_new_orleans
   title: About Code for New Orleans
+  menu_tag: About
+  category: main_nav
 ---
 Code for New Orleans is a group of local volunteers focused on making city services accessible and easy to use and improving the lives of residents.
 
