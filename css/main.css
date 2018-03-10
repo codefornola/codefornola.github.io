@@ -51,6 +51,7 @@ body {
   font-family: var(--sans);
   font-size: 20px;
   margin: 0;
+  z-index: 0;
 }
 header {
   background-color: white;
@@ -67,7 +68,7 @@ header {
   align-content: space-between;
 }
 .logo {
-  background-image: url('/img/cfno-logo.png');
+  background-image: url('/img/logo/cfno-logo.png');
   background-size: cover;
   min-width: 200px;
   min-height: 85px;
@@ -118,16 +119,32 @@ h6 {
 }
 .content {
   background-color: white;
-  z-index: 0;
+  z-index: -1;
   max-width: 900px;
   min-height: calc(100vh - 10px);
   margin: 0 auto;
   padding: 135px 30px 5px 30px;
 }
+img {
+  max-width: 900px;
+}
+.under {
+  z-index: 0;
+}
+.over {
+  z-index: 2;
+}
+.center {
+  text-align: center;
+}
 
 nav {
   flex-direction: row;
-  align-self: flex-end;
+  align-self: center;
+}
+header > nav {
+  right: 10px;
+  position: absolute;
 }
 nav > ul {
   display: flex;
@@ -159,7 +176,7 @@ nav > ul > li > a:active {
 .display-example, .person {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   border-top: 1px solid var(--brand-gold);
   padding: 10px 0;
@@ -184,9 +201,11 @@ nav > ul > li > a:active {
   padding-left: 0;
 }
 .person-photo img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border: 0;
+  box-shadow: 2px 3px rgba(200, 200, 200, 0.6);
+  transform: rotate(-10deg);
 }
 .display-example-wide,
 .person-details {
