@@ -10,7 +10,7 @@
   <body>
     {% include header.html %}
     <div class='content'>
-      {{ content }}
+      {{ content | markdownify }}
     </div>
   </body>
 </html>
