@@ -1,25 +1,20 @@
 ---
 layout: code_for_new_orleans
+images:
+  - /img/bayou-439881_1280.jpg
+  - /img/french-quarter-557458_1280.jpg
+  - /img/lafittes-blacksmith-shop-404201_1280.jpg
+  - /img/mississippi-112000_1280.jpg
+  - /img/people-2606446_1280.jpg
+  - /img/tram-1630080_1280.jpg
+  - /img/usa-1644525_1280.jpg
 ---
+<div class="highlight center over">Hello! Want to make your city a better place to live?</div>
 
-<nav>
-  <ul>
-    {% for page_item in site.pages %}
-      {% if page_item.title %}
-        <li><a href={{ page_item.url }}>{{ page_item.title }}</li></a>
-      {% endif %}
-    {% endfor %}
-  </ul>
-</nav>
+<img class="under" src="{{ page.images | sample }}" />
 
-<h1>Hello!</h1>
-
-<p>
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-</p>
-
-<img src='https://www.aspca.org/sites/default/files/cat-care_cat-nutrition-tips_overweight_body4_left.jpg'>
-
-<p>
-  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-</p>
+<div class="over">
+  <p>Code for New Orleans is a group of local volunteers doing just that. Join us in creating awareness of what our city provides for us and in creating new and creative solutions to problems we find.</p>
+  <p>We hope to work with you on a project soon. <a href="/pages/projects">Find a project and get started now!</a></p>
+  <div class='social-links' />
+</div>
