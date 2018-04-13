@@ -254,3 +254,6 @@ nav > ul > li > a:active {
   display: flex;
 
 }
+.mono {
+  font-family: var(--mono);
+}
