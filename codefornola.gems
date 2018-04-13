@@ -1,0 +1,33 @@
+# codefornola.gems generated gem export file. Note that any env variable settings will be missing. Append these after using a ';' field separator
+
+addressable -v2.5.2
+bigdecimal -v1.3.0
+colorator -v1.1.0
+concurrent-ruby -v1.0.5
+em-websocket -v0.5.1
+eventmachine -v1.2.5
+ffi -v1.9.23
+forwardable-extended -v2.6.0
+http_parser.rb -v0.6.0
+i18n -v0.9.5
+io-console -v0.4.6
+jekyll -v3.7.3
+jekyll-sass-converter -v1.5.2
+jekyll-watch -v2.0.0
+json -v2.0.4
+kramdown -v1.16.2
+liquid -v4.0.0
+listen -v3.1.5
+mercenary -v0.3.6
+openssl -v2.0.5
+pathutil -v0.16.1
+psych -v2.2.2
+public_suffix -v3.0.2
+rb-fsevent -v0.10.3
+rb-inotify -v0.9.10
+rdoc -v5.0.0
+rouge -v3.1.1
+ruby_dep -v1.5.0
+safe_yaml -v1.0.4
+sass -v3.5.6
+sass-listen -v4.0.0
