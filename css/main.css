@@ -67,6 +67,18 @@ header {
   align-items: center;
   align-content: space-between;
 }
+footer {
+  background-color: white;
+  width: 100%;
+  height: 15px;
+  margin: 10px 0;
+  border-top: var(--brand-grey-accent);
+  display: flex;
+  flex-direction: row;
+  flex-flow: nowrap;
+  align-items: center;
+  align-content: space-between;
+}
 .logo {
   background-image: url('/img/logo/cfno-logo.png');
   background-size: cover;
@@ -76,6 +88,9 @@ header {
   height: 85px;
   margin: 1em;
   margin-right: 3em;
+}
+a.logo-link {
+  background-color: transparent;
 }
 .wordmark {
   font-family: var(--mono);
@@ -129,6 +144,19 @@ h6 {
   margin: 0 auto;
   padding: 135px 30px 5px 30px;
 }
+a {
+  color: var(--brand-blue);
+  background-color: var(--brand-gold);
+  border-radius: 5px;
+  padding: 3px 7px;
+  font-family: var(--mono);
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  color: var(--brand-red);
+}
+
 img {
   max-width: 900px;
 }
@@ -140,6 +168,29 @@ img {
 }
 .center {
   text-align: center;
+  margin: 0 auto;
+}
+.mono {
+  font-family: var(--mono);
+}
+.big-font {
+  font-size: 3rem;
+}
+.social-icons > li {
+  display: inline-block;
+  padding: 5px;
+  margin: 10px;
+  color: var(--brand-blue);
+  list-style-type: none;
+}
+.social-icons > li > a {
+  color: var(--brand-blue);
+  font-family: var(--mono);
+  text-decoration: none;
+}
+.social-icons > li > a:hover,
+.social-icons > li > a:active {
+  color: var(--brand-red);
 }
 
 nav {
@@ -159,6 +210,22 @@ header > nav > ul {
 header > nav > ul > li {
   margin-bottom: 0;
 }
+footer {
+}
+footer > nav {
+  right: 10px;
+  align-self: flex-end;
+  align-content: center;
+  margin-top: 30px;
+  position: absolute;
+}
+footer > nav > ul {
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+footer > nav > ul > li {
+  margin-bottom: 0;
+}
 nav > ul {
   display: flex;
   align-items: flex-end;
@@ -174,12 +241,14 @@ nav > ul > li {
 }
 nav > ul > li > a {
   color: var(--brand-blue);
+  background-color: transparent;
   font-family: var(--mono);
   text-decoration: none;
 }
 nav > ul > li > a:hover,
 nav > ul > li > a:active {
   color: var(--brand-red);
+  background-color: transparent;
 }
 
 .examples, .people {
@@ -253,7 +322,7 @@ nav > ul > li > a:active {
   font-size: 28px;
   padding: 20px 20px;
 }
-.project-announcement {
+.page-announcement, .project-announcement {
   background-color: var(--brand-sky-highlight);
   color: var(--brand-blue);
   font-family: var(--mono);
@@ -266,7 +335,4 @@ nav > ul > li > a:active {
 .person {
   display: flex;
 
-}
-.mono {
-  font-family: var(--mono);
 }

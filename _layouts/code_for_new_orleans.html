@@ -6,11 +6,16 @@
     <meta charset="utf-8"/>
     <link href="https://fonts.googleapis.com/css?family=Inconsolata|Open+Sans" rel="stylesheet">
     <link href="/css/main.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/9b8eaa3211.js"></script>
   </head>
   <body>
     {% include header.html %}
     <div class='content'>
-      {{ content | markdownify }}
+        {% if page.announce %}
+        <div class="page-announcement">{{ page.announce | markdownify }}</div>
+        {% endif %}
+              {{ content | markdownify }}
     </div>
+    {% include footer.html %}
   </body>
 </html>
