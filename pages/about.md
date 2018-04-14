@@ -15,7 +15,7 @@
     -
       name: Marc Cenac
       title: Co-Captain and Community Organizer
-      image: https://baconmockup.com/200/300/
+      image: /img/people/marc.jpg
       bio: |
         Marc Cenac started Code for New Orleans in 2016 in an effort to be more involved in creating the life he wanted in New Orleans. Since then, he's taken part in numerous projects to improve the city.
         
@@ -27,12 +27,6 @@
       bio: |
         Kris Gerig first attended Code for New Orleans Meetups starting in late 2016 with an interest in geospatial analysis and mapping data for New Orelans neighborhoods. He spent over five years working as a data analyst for a Public Health nonprofit organization, and started working as a crime data analyst for the New Orleans Police Department in early 2018.
         Kris moved to New Orleans in 2010 for graduate school and later found a job and much later found a wife, who is a native of NOLA, so he's probably never leaving.
-    -
-      name: Ben Eckel
-      title: Delivery Lead
-      image: https://baconmockup.com/200/300/
-      bio: |
-        Bio of Ben Eckel...
 ---
 Code for New Orleans is a group of local volunteers focused on making city services accessible and easy to use and improving the lives of residents.
 
