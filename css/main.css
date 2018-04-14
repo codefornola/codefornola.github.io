@@ -88,6 +88,10 @@ h1 {
   font-weight: bold;
   font-size: 54px;
 }
+header > h1 {
+  align-self: top;
+  margin-top: 0;
+}
 h2 {
   font-family: var(--mono);
   font-size: 40px;
@@ -144,7 +148,16 @@ nav {
 }
 header > nav {
   right: 10px;
+  align-self: flex-end;
+  margin-bottom: 10px;
   position: absolute;
+}
+header > nav > ul {
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+header > nav > ul > li {
+  margin-bottom: 0;
 }
 nav > ul {
   display: flex;
