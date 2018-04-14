@@ -261,6 +261,9 @@ nav > ul > li > a:active {
   color: var(--brand-red);
   background-color: transparent;
 }
+nav.projects > ul > li {
+  text-align: center;
+}
 
 .examples, .people {
   width: 100%;

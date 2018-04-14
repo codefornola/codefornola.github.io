@@ -6,7 +6,7 @@
 ---
 Check out our current projects!
 
-<nav>
+<nav class="projects">
   <ul>
     {% for page_item in site.pages | sort: 'title' %}
       {% if page_item.category == 'project' %}
@@ -33,7 +33,7 @@ Projects by skill needed:
 {% for skill in skills | sort %}
   {% assign skill_projects = site.pages | where:"category", "project" | where_exp:"page", "page.project.skills_needed contains skill" %} 
   <li class="bold mono brand-red">{{skill}}
-    <nav><ul>
+    <nav class="projects"><ul>
       {% for project_page in skill_projects %}
         <li class="mono brand-blue">
           <a href='{{project_page.url}}'>{{project_page.title}}</a>
