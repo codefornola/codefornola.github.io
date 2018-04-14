@@ -25,7 +25,8 @@
       title: Storyteller
       image: /img/people/kris.jpg
       bio: |
-        Bio of Kris Gerig...
+        Kris Gerig first attended Code for New Orleans Meetups starting in late 2016 with an interest in geospatial analysis and mapping data for New Orelans neighborhoods. He spent over five years working as a data analyst for a Public Health nonprofit organization, and started working as a crime data analyst for the New Orleans Police Department in early 2018.
+        Kris moved to New Orleans in 2010 for graduate school and later found a job and much later found a wife, who is a native of NOLA, so he's probably never leaving.
     -
       name: Ben Eckel
       title: Delivery Lead
