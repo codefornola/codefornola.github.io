@@ -8,6 +8,19 @@
       name: Ryan Harvey
       title: Co-Captain and Data Wrangler
       image: /img/people/ryan.jpg
+      links:
+        -
+          icon: home
+          url: http://datascientist.guru
+        -
+          icon: github
+          url: https://github.com/nihonjinrxs
+        -
+          icon: twitter-square
+          url: https://twitter.com/CodeAndData
+        -
+          icon: linkedin
+          url: https://www.linkedin.com/in/ryanbharvey/
       bio: |
         Ryan Harvey got involved in the civic tech and open government movements from their start, helping to start the Open Government and Open Data programs at Social Security Administration between 2009 and 2012, and helping to coordinate Data.gov submissions for the White House Office of Management and Budget while working in Budget Systems from 2012 through 2016. While living in the DC area, Ryan was an active participant in the civic tech community, including the Data Community DC and Code for DC.
 
@@ -16,6 +29,13 @@
       name: Marc Cenac
       title: Co-Captain and Community Organizer
       image: /img/people/marc.jpg
+      links:
+        -
+          icon: github
+          url: https://github.com/mrcnc
+        -
+          icon: linkedin
+          url: https://www.linkedin.com/in/marccenac/
       bio: |
         Marc Cenac started Code for New Orleans in 2016 in an effort to be more involved in creating the life he wanted in New Orleans. Since then, he's taken part in numerous projects to improve the city.
         
@@ -24,6 +44,13 @@
       name: Kris Gerig
       title: Storyteller
       image: /img/people/kris.jpg
+      links:
+        -
+          icon: github
+          url: https://github.com/jkgerig
+        -
+          icon: linkedin
+          url: https://www.linkedin.com/in/kris-gerig-228330b/
       bio: |
         Kris Gerig first attended Code for New Orleans Meetups starting in late 2016 with an interest in geospatial analysis and mapping data for New Orelans neighborhoods. He spent over five years working as a data analyst for a Public Health nonprofit organization, and started working as a crime data analyst for the New Orleans Police Department in early 2018.
 
@@ -52,7 +79,17 @@ We always need help organizing these events! If you want to help, please let us 
     <img src="{{ person.image }}" alt="Photo of {{ person.name }}" title="Photo of {{ person.name }}"/>
   </div>
   <div class="person-details">
-    <p class="person-name">{{ person.name }}</p>
+    <div class="person-name">{{ person.name }}
+    {% if person.links %}
+      <ul class="person-links social-icons">
+        {% for link in person.links %}
+        <li><a href='{{ link.url }}' target='_blank'>
+          <i class='fa fa-{{link.icon}}'></i>
+        </a></li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+    </div>
     <p class="person-title">{{ person.title }}</p>
     {{ person.bio | markdownify }}
   </div>

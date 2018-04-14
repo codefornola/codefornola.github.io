@@ -193,6 +193,19 @@ img {
   color: var(--brand-red);
 }
 
+ul.person-links {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+ul.person-links > li {
+  margin: 0;
+  padding: 3px 7px;
+  min-width: 60px;
+}
+
 nav {
   flex-direction: row;
   align-self: center;
@@ -209,8 +222,6 @@ header > nav > ul {
 }
 header > nav > ul > li {
   margin-bottom: 0;
-}
-footer {
 }
 footer > nav {
   right: 10px;
@@ -298,6 +309,8 @@ nav > ul > li > a:active {
   font-weight: bold;
   color: var(--brand-blue);
   font-size: 28px;
+  display: flex;
+  justify-content: space-between;
 }
 .person-title {
   font-style: italic;
