@@ -26,6 +26,7 @@
       image: /img/people/kris.jpg
       bio: |
         Kris Gerig first attended Code for New Orleans Meetups starting in late 2016 with an interest in geospatial analysis and mapping data for New Orelans neighborhoods. He spent over five years working as a data analyst for a Public Health nonprofit organization, and started working as a crime data analyst for the New Orleans Police Department in early 2018.
+
         Kris moved to New Orleans in 2010 for graduate school and later found a job and much later found a wife, who is a native of NOLA, so he's probably never leaving.
 ---
 Code for New Orleans is a group of local volunteers focused on making city services accessible and easy to use and improving the lives of residents.
@@ -35,12 +36,13 @@ We're a brigade of [Code for America](https://www.codeforamerica.org/), a nation
 ## Events
 We meet monthly on the second Thursday of the month at 7:00 PM for Project Nights at Launch Pad on Poydras Street.
 
-In addition, we host bigger events for days of action:
+In addition, we try to host bigger events for days of action:
 
-* National Day of Civic Hacking
-* CodeAcross
-* CityCamp
-* International Open Data Day
+* International Open Data Day and CodeAcross (early March)
+* National Day of Civic Hacking (early June)
+* International CityCamp Day (mid-October)
+
+We always need help organizing these events! If you want to help, please let us know!
 
 ## Leadership
 
