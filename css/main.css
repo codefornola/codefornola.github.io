@@ -42,6 +42,18 @@
 .brand-highlight {
   color: var(--brand-sky-highlight);
 }
+.white {
+  color: white;
+}
+.bg-white {
+  background-color: white;
+}
+.black {
+  color: black;
+}
+.bg-black {
+  background-color: black;
+}
 body {
   background: white; /* Old browsers */
   background: var(--brand-gradient-accent-moz);
