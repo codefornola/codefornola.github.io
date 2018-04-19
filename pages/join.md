@@ -1,7 +1,7 @@
 ---
 layout: code_for_new_orleans
-title: Support What We Do
-menu_tag: Show Your Support
+title: Join In What We Do
+menu_tag: Join Us
 category: main_nav
 decoration: call_to_action
 announce: We'd love to hear from you, and we'd love even more for you to join us!

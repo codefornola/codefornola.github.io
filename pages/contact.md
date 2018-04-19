@@ -1,7 +1,7 @@
 ---
 layout: code_for_new_orleans
-title: Join Us!
-menu_tag: Contact
+title: Get In Touch
+menu_tag: Contact Us
 category: main_nav
 announce: We'd love to hear from you, and we'd love even more for you to join us!
 ---

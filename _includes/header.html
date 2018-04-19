@@ -7,15 +7,16 @@
       <ul>
         {% for page_item in site.pages %}
           {% if page_item.category == 'main_nav' %}
-            <li><a href='{{ page_item.url }}'>
+            <li{% if page_item.decoration == 'call_to_action' %} class='brand-bg-red'{% endif %}><a href='{{ page_item.url }}'{% if page_item.decoration == 'call_to_action' %} class='white'{% endif %}>{% if page_item.decoration == 'call_to_action' %}<strong>{% endif %}
               {% if page_item.menu_tag %}
                 {{ page_item.menu_tag }}
               {% else %}
                 {{ page_item.title }}
               {% endif %}
-            </a></li>
+              {% if page_item.decoration == 'call_to_action' %}</strong>{% endif %}</a></li>
           {% endif %}
         {% endfor %}
+            <li class='brand-bg-red'><a href='https://secure.codeforamerica.org/page/contribute/donate-to-a-brigade-today?source_codes=codeforneworleans.org&brigade=Code%20for%20New%20Orleans' target='_blank' class='white'><strong>Donate</strong></a></li>
       </ul>
     </nav>
   </header>
