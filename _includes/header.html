@@ -1,0 +1,21 @@
+  <header>
+    <a class="logo-link" href="/">
+      <div class="logo"></div>
+    </a>
+    <h1>{{ page.title | default: site.title }}</h1>
+    <nav role="navigation">
+      <ul>
+        {% for page_item in site.pages %}
+          {% if page_item.category == 'main_nav' %}
+            <li><a href='{{ page_item.url }}'>
+              {% if page_item.menu_tag %}
+                {{ page_item.menu_tag }}
+              {% else %}
+                {{ page_item.title }}
+              {% endif %}
+            </a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
