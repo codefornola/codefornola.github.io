@@ -235,6 +235,16 @@ header > nav > ul {
 header > nav > ul > li {
   margin-bottom: 0;
 }
+header > nav > ul > li.cta {
+  background-color: var(--brand-red);
+}
+nav > ul > li.cta > a {
+  color: white;
+}
+nav > ul > li.cta > a:hover,
+nav > ul > li.cta > a:active {
+  color: var(--brand-gold);
+}
 footer > nav {
   right: 10px;
   align-self: flex-end;
