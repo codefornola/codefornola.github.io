@@ -5,8 +5,8 @@
   project:
     announce: Want to take the lead on this project? <a href='mailto:ryan@codeforneworleans.org'>Contact the Project Champion!</a>
     champion:
-      name: Ryan Harvey
-      email: ryan@codeforneworleans.org
+      name: Marc Cenac
+      email: marc@codeforneworleans.org
     people:
       -
         name: Ryan Harvey
