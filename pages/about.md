@@ -39,7 +39,7 @@
       bio: |
         Marc Cenac started Code for New Orleans in 2016 in an effort to be more involved in creating the life he wanted in New Orleans. Since then, he's taken part in numerous projects to improve the city.
         
-        Marc grew up here in New Orleans, attended college at Loyola University in uptown, and works remotely from New Orleans as a software engineer for Boundless Spatial. Marc participated in the Civic Leadership Academy program run by the City of New Orleans in 2017.
+        Marc grew up here in New Orleans, attended college at Loyola University in uptown, and works remotely from New Orleans as a software engineer for Recurly. Marc participated in the Civic Leadership Academy program run by the City of New Orleans in 2017.
     -
       name: Kris Gerig
       title: Storyteller
