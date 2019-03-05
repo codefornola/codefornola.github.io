@@ -18,7 +18,7 @@ After a year and a half or so on Meetup, we have over 300 members in our group. 
 
 Many of our attendees are learning-stage software developers, looking to hone their skills through our civic-minded projects. We're excited to support and mentor them, and through that, help strengthen our city's tech community. In addition, technologists with a range of skills beyond coding like designers, project managers, and data analysts attend our events.
 
-Over the past year and a half, we’ve worked to improve the accuracy of the city's public 311 services data; begun to visualize that 311 data in useful and meaningful ways; explored new ideas for engaging the general public with Tulane University's Design Thinking students; explored ideas for building a common city-wide user interface component to handle street address auto-completion; built a scraper for the city assessor's property tax data; and worked to make RTA's transit data more accessible to New Orleans residents.
+Over the past couple years, we’ve worked to improve the accuracy of the city's public 311 services data; begun to visualize that 311 data in useful and meaningful ways; explored new ideas for engaging the general public with Tulane University's Design Thinking students; explored ideas for building a common city-wide user interface component to handle street address auto-completion; built a scraper for the city assessor's property tax data; worked to make RTA's transit data more accessible to New Orleans residents; and worked collaboratively with others around the country to assist hurricane response efforts.
 
 #### Donate Your Time and Effort
 
