@@ -6,7 +6,7 @@
   leadership:
     -
       name: Ryan Harvey
-      title: Co-Captain and Data Wrangler
+      title: Brigade Captain and Data Wrangler
       image: /img/people/ryan.jpg
       links:
         -
@@ -27,7 +27,7 @@
         Ryan grew up in the New Orleans area, graduated from Loyola University in uptown, and works remotely as a data engineer for TED Conferences. He also serves as an adjunct lecturer in computer science at Loyola. Ryan lives in a multi-generational home in Mandeville, and has two amazing kids.
     -
       name: Marc Cenac
-      title: Co-Captain and Community Organizer
+      title: Brigade Founder and Community Organizer
       image: /img/people/marc.jpg
       links:
         -
