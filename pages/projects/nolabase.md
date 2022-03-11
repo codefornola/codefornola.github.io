@@ -21,7 +21,7 @@
       - Make public New Orleans data more easily accessible via Postgres
       - Compile some of the most popular New Oleans datasets in one place
     skills_needed:
-      - Postgres
+      - Postgres, React, Excel, PowerBI
     why: |
       The [Nola open data portal](https://datadriven.nola.gov/home/) provides a lot of useful datasets but they are often dirty or incomplete, or missing popular datasets like the Orleans Parish Assessor property records. Nolabase is an attempt to collect some of these popular datasets in one place and make them query-able via clients like SQL, QGIS, Excel and PowerBI.
     where: |
